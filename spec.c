@@ -87,7 +87,7 @@ int get_flag(char *s, params_t *params)
 			i = params->zero_flag = 1;
 			break;
 	}
-	return (1);
+	return (i);
 }
 
 /**
@@ -103,7 +103,7 @@ int get_modifier(char *s, params_t *params)
 
 	switch (*s)
 	{
-		case 'h';
+		case 'h':
 		i = params->h_modifier = 1;
 		break;
 		case 'l':
