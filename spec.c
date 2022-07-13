@@ -56,6 +56,7 @@ int get_print_func(char *s, va_list ap, params_t *params)
 		return (f(ap, params));
 	return (0);
 }
+
 /**
  * get_flag - finds the flag functions
  * @s: the format string
